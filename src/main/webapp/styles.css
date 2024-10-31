@@ -1,0 +1,185 @@
+/* Estilos Generales */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+/* Estilos del Encabezado */
+header {
+    background-color: #004d7a; /* Azul oscuro */
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2.5em;
+}
+
+nav {
+    margin-top: 10px;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 1.2em;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+/* Estilos del Contenido Principal */
+main {
+    padding: 20px;
+    text-align: center;
+}
+
+h2 {
+    color: #004d7a; /* Azul oscuro */
+}
+
+/* Estilos para el Formulario */
+form {
+    background-color: white;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 20px;
+    margin: 20px auto;
+    max-width: 400px;
+}
+
+form label {
+    display: block;
+    margin: 10px 0 5px;
+}
+
+form input[type="text"],
+form input[type="email"],
+form input[type="date"],
+form input[type="submit"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+form input[type="submit"] {
+    background-color: #004d7a; /* Azul oscuro */
+    color: white;
+    border: none;
+    cursor: pointer;
+    font-size: 1.1em;
+}
+
+form input[type="submit"]:hover {
+    background-color: #003366; /* Azul más oscuro */
+}
+
+/* Estilos de la Tabla */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px auto;
+}
+
+table th, table td {
+    padding: 15px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+
+table th {
+    background-color: #004d7a; /* Azul oscuro */
+    color: white;
+}
+
+table tr:hover {
+    background-color: #f1f1f1; /* Color claro en hover */
+}
+
+/* Estilos del Pie de Página */
+footer {
+    background-color: #004d7a; /* Azul oscuro */
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
+
+
+/* Estilos para la sección de Destinos */
+.destinos-container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.destino {
+    background-color: rgba(255, 255, 255, 0.9);
+    border-radius: 8px;
+    margin: 10px;
+    padding: 15px;
+    width: 30%; /* Ajusta el ancho según tu diseño */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.destino-imagen {
+    width: 100%;
+    border-radius: 8px;
+}
+
+.intro {
+    position: relative; /* Necesario para posicionar los círculos */
+    margin: 20px auto;
+    padding: 30px;
+    background-color: rgba(255, 255, 255, 0.9);
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
+    display: flex; /* Permite la distribución de los círculos */
+    flex-wrap: wrap; /* Permite que los círculos se muevan a una nueva línea */
+    justify-content: center; /* Centra los círculos en el contenedor */
+}
+
+.circulo {
+    width: 250px; /* Tamaño fijo para los círculos */
+    height: 250px; /* Tamaño fijo para los círculos */
+    margin: 20px; /* Espacio alrededor de los círculos */
+    padding: 20px; /* Espacio interior */
+    background-color: rgba(242, 201, 76, 0.8); /* Color de fondo para los círculos */
+    border-radius: 50%; /* Hace que el div sea un círculo */
+    display: flex; /* Permite centrar el contenido */
+    flex-direction: column; /* Orienta el contenido en columnas */
+    align-items: center; /* Centra horizontalmente */
+    justify-content: center; /* Centra verticalmente */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5); /* Sombra para los círculos */
+}
+
+.circulo h2,
+.circulo h3 {
+    margin: 10px 0; /* Espaciado entre el título y el texto */
+    text-align: center; /* Centra el texto */
+}
+
+.circulo p {
+    text-align: center; /* Centra el texto del párrafo */
+}
